@@ -1,3 +1,5 @@
+# Pairing script used for extreme programming (XP). 
+
 function create_user([string]$name, [string]$username, [string]$email) {
     return [PSCustomObject] @{
         name        = $name
@@ -7,15 +9,8 @@ function create_user([string]$name, [string]$username, [string]$email) {
 }
 
 $GIT_AUTHORS = @{
-    "cc"    = create_user "Caleb Clausen" "cclausen" "cclausen@truecar.com";
-    "cn"    = create_user "Colman Nady" "colman" "cclausen@truecar.com";
-    "dw"    = create_user "Dave Willett" "dwillett" "dwillett@truecar.com";
-    "kai"   = create_user "Chris Lichti" "kai" "kai@truecar.com";
-    "jm"    = create_user "Jon Mischo" "jmischo" "jmischo@truecar.com";
-    "mf"    = create_user "Mishkin Faustini" "mfaustini" "mfaustini@truecar.com";
-    "sg"    = create_user "Scott Gonyea" "sgonyea" "sgonyea@truecar.com";
-    "spp"   = create_user "Satyajit Phanse" "sphanse" "sphanse@truecar.com";
-    "th"    = create_user "Tasha Haggard" "thaggard" "tasha@truecar.com";
+    "person1"    = create_user "Fake Person Name 1" "username1" "username1@something.com";
+    "person2"    = create_user "Fake Person Name 2" "username2" "username2@something.com";
 }
 
 function pair {
