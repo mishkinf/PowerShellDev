@@ -1,8 +1,9 @@
 # PowerShellDev
 *All the utilities to make PowerShell nicer for developers*
 ##### Author: Mishkin Faustini
+
+Custom shell prompt for git directors (and git setup with aliases for git status (gst) and other git commands
 ```powershell
-# Custom shell prompt for git directors (and git setup with aliases for git status (gst) and other git commands
 Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> git status
 Mishkin Faustini
 # On branch master
@@ -11,11 +12,11 @@ Mishkin Faustini
 #
 #       new file:   blah.txt
 #
+```
+
+Pairing script for extreme programming
+```powershell
 Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> pair mf
-
-
-
-# Extreme programming pairing script
 **** PAIRING USERS:
 Mishkin Faustini
 'C:\.ssh\keys\mishkinfaustini'
@@ -23,16 +24,15 @@ Enter passphrase for C:\.ssh\keys\mishkinfaustini:
 Identity added: C:\.ssh\keys\mishkinfaustini (C:\.ssh\keys\mishkinfaustini)
 NAMES: Mishkin Faustini
 EMAILS: some@email.address
+```
 
-
-# Easily copy variables and outputs to the clipboard
+Easily copy variables and outputs to the clipboard
+```powershell
 Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> "easily copy your text to the clipboard" | out-clipboard
 Text copied to clipboard!
-
-
-# ... and many more little niceties ...
-
 ```
+
+... and many more little niceties ...
 
 ### To Setup:
 1. Install msysgit with everything included from http://code.google.com/p/msysgit/downloads/list
