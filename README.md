@@ -1,7 +1,7 @@
 # PowerShellDev
 *All the utilities to make PowerShell nicer for developers*
 
-Author: Mishkin Faustini
+By Mishkin Faustini
 
 ##### Custom shell prompt for git directors (and git setup with aliases for git status (gst) and other git commands
 ```powershell
