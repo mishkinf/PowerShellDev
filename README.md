@@ -2,7 +2,7 @@
 *All the utilities to make PowerShell nicer for developers*
 ##### Author: Mishkin Faustini
 
-Custom shell prompt for git directors (and git setup with aliases for git status (gst) and other git commands
+##### Custom shell prompt for git directors (and git setup with aliases for git status (gst) and other git commands
 ```powershell
 Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> git status
 Mishkin Faustini
@@ -14,7 +14,7 @@ Mishkin Faustini
 #
 ```
 
-Pairing script for extreme programming
+##### Pairing script for extreme programming
 ```powershell
 Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> pair mf
 **** PAIRING USERS:
@@ -26,7 +26,7 @@ NAMES: Mishkin Faustini
 EMAILS: some@email.address
 ```
 
-Easily copy variables and outputs to the clipboard
+##### Easily copy variables and outputs to the clipboard
 ```powershell
 Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> "easily copy your text to the clipboard" | out-clipboard
 Text copied to clipboard!
