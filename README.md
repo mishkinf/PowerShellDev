@@ -1,9 +1,42 @@
 # PowerShellDev
 *All the utilities to make PowerShell nicer for developers*
 ##### Author: Mishkin Faustini
+```powershell
+# Custom shell prompt for git directors (and git setup with aliases for git status (gst) and other git commands
+Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> git status
+Mishkin Faustini
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       new file:   blah.txt
+#
+Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> pair mf
+
+
+
+# Extreme programming pairing script
+**** PAIRING USERS:
+Mishkin Faustini
+'C:\.ssh\keys\mishkinfaustini'
+Enter passphrase for C:\.ssh\keys\mishkinfaustini:
+Identity added: C:\.ssh\keys\mishkinfaustini (C:\.ssh\keys\mishkinfaustini)
+NAMES: Mishkin Faustini
+EMAILS: some@email.address
+
+
+# Easily copy variables and outputs to the clipboard
+Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> "easily copy your text to the clipboard" | out-clipboard
+Text copied to clipboard!
+
+
+# ... and many more little niceties ...
+
+```
+
 ### To Setup:
-1) Install msysgit with everything included from http://code.google.com/p/msysgit/downloads/list
-2) Modify .ssh/config and add your keyfile information
+1. Install msysgit with everything included from http://code.google.com/p/msysgit/downloads/list
+2. Modify .ssh/config and add your keyfile information
     "
 	Host *
 	    ForwardAgent yes
@@ -11,10 +44,10 @@
 	    IdentityFile keys/<yourkeyfile>
     "
     If you don't know much about ssh keys then please review
-3) Add your ssh keys to PowerShellDev/.ssh/keys/
-4) [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
-5) Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
-4) Restart PowerShell and happy shelling! 
+3. Add your ssh keys to PowerShellDev/.ssh/keys/
+4. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
+5. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
+6. Restart PowerShell and happy PowerShelling!! 
 
 ### License
 The MIT License Copyright (c) 2013 TrueCar, Inc.
