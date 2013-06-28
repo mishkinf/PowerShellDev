@@ -2,8 +2,8 @@
 *All the utilities to make PowerShell nicer for developers*
 ##### Author: Mishkin Faustini
 ### To Setup:
-1) Install msysgit with everything included from http://code.google.com/p/msysgit/downloads/list
-2) Modify .ssh/config and add your keyfile information
+1. Install msysgit with everything included from http://code.google.com/p/msysgit/downloads/list
+2. Modify .ssh/config and add your keyfile information
     "
 	Host *
 	    ForwardAgent yes
@@ -11,10 +11,10 @@
 	    IdentityFile keys/<yourkeyfile>
     "
     If you don't know much about ssh keys then please review
-3) Add your ssh keys to PowerShellDev/.ssh/keys/
-4) [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
-5) Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
-4) Restart PowerShell and happy shelling! 
+3. Add your ssh keys to PowerShellDev/.ssh/keys/
+4. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
+5. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
+6. Restart PowerShell and happy PowerShelling!! 
 
 ### License
 The MIT License Copyright (c) 2013 TrueCar, Inc.
