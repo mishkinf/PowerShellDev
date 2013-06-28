@@ -20,7 +20,10 @@ function git {
 # }
 
 Add-Type -AssemblyName PresentationCore
-function Out-Clipboard() { [System.Windows.Clipboard]::SetText($input) }
+function Out-Clipboard() { 
+    [System.Windows.Clipboard]::SetText($input) 
+    Write-Host "Text copied to clipboard!"
+}
 set-alias pbcopy Out-Clipboard #pbcopy is the mac bash equivalent
 
 set-alias gh get-history
