@@ -69,7 +69,7 @@ Mishkin@MISHPRO > "Powershell is better than bash!" | out-speech
 
 ### SETUP INSTRUCTIONS
 #### PowerShellDev helpers
-1. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
+1. Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
 2. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
 3. Restart PowerShell.
 
