@@ -42,12 +42,12 @@ Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> vim
       type  :help version7<Enter>   for version info
 ```
 
-##### Pairing script for extreme programming
+##### Pairing script for EXTREME PROGRAMMING (paired programming)
 ```powershell
-Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> pair mf
+Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> pair mf hw
 **** PAIRING USERS:
-Mishkin Faustini
-'C:\.ssh\keys\mishkinfaustini'
+Mishkin Faustini & Hollin Wilkins
+Using the first pairs key: 'C:\.ssh\keys\mishkinfaustini'
 Enter passphrase for C:\.ssh\keys\mishkinfaustini:
 Identity added: C:\.ssh\keys\mishkinfaustini (C:\.ssh\keys\mishkinfaustini)
 NAMES: Mishkin Faustini
