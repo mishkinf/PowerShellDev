@@ -29,7 +29,7 @@ EMAILS: some@email.address
 
 ##### Easily copy variables and outputs to the clipboard
 ```powershell
-Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> "easily copy your text to the clipboard" | out-clipboard
+Mishkin@MISHPRO > "easily copy your text to the clipboard" | out-clipboard
 Text copied to clipboard!
 ```
 
