@@ -36,7 +36,7 @@ Text copied to clipboard!
 ... and many more little niceties ...
 
 ### To Setup:
-1. Install msysgit with everything included from http://code.google.com/p/msysgit/downloads/list
+1. Install msysgit with everything included from http://msysgit.github.io/
 2. Modify .ssh/config and add your keyfile information
     "
 	Host *
