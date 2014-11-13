@@ -14,6 +14,33 @@ Mishkin Faustini
 #       new file:   blah.txt
 #
 ```
+##### SSH Capabilities
+```powershell
+Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> ssh
+usage: ssh [-1246AaCfgkMNnqsTtVvXxY] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-e escape_char] [-F configfile]
+           [-i identity_file] [-L [bind_address:]port:host:hostport]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-R [bind_address:]port:host:hostport] [-S ctl_path]
+           [-w local_tun[:remote_tun]] [user@]hostname [command]
+```
+##### Vim for text editing
+```powershell
+Mishkin@MISHPRO PowerShellDev [master +1 ~0 -0]> vim
+
+                    VIM - Vi IMproved
+
+                       version 7.4
+                 by Bram Moolenaar et al.
+       Vim is open source and freely distributable
+
+              Become a registered Vim user!
+      type  :help register<Enter>   for information
+
+      type  :q<Enter>               to exit
+      type  :help<Enter>  or  <F1>  for on-line help
+      type  :help version7<Enter>   for version info
+```
 
 ##### Pairing script for extreme programming
 ```powershell
