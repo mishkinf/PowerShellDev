@@ -35,7 +35,8 @@ Text copied to clipboard!
 
 ... and many more little niceties ...
 
-### Instructions To Setup Git and SSH
+### SETUP INSTRUCTIONS
+#### Git and SSH
 1. Install msysgit with everything included from http://msysgit.github.io/
 2. During installation make sure to select "Use Git from the Windows Command Prompt"
 3. Add "C:\Program Files (x86)\Git\bin" to your PATH
@@ -48,6 +49,9 @@ Text copied to clipboard!
     "
     If you don't know much about ssh keys then please review
 5. Add your ssh keys to PowerShellDev/.ssh/keys/
+#### Vim
+6. Install Vim from http://www.vim.org/download.php#pc and make sure the Vim directory is added to your path (C:\Program Files (x86)\Vim\vim74)
+#### Pairing Script
 6. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
 7. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
 8. Restart PowerShell and happy PowerShelling!! 
