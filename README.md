@@ -68,10 +68,6 @@ Mishkin@MISHPRO > "Powershell is better than bash!" | out-speech
 ... and many more little niceties ...
 
 ### SETUP INSTRUCTIONS
-#### PowerShellDev helpers
-1. Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
-2. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
-3. Restart PowerShell.
 
 #### Git and SSH
 1. Install msysgit with everything included from http://msysgit.github.io/
@@ -86,8 +82,11 @@ Mishkin@MISHPRO > "Powershell is better than bash!" | out-speech
     "
     If you don't know much about ssh keys then please review
 5. Add your ssh keys to PowerShellDev/.ssh/keys/
-6. Restart PowerShell.
 
 #### Vim
 1. Install Vim from http://www.vim.org/download.php#pc and make sure the Vim directory is added to your path (C:\Program Files (x86)\Vim\vim74)
-2. Restart PowerShell.
+
+#### PowerShellDev helpers
+1. Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
+2. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
+3. Restart PowerShell.
