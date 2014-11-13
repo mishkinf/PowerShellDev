@@ -52,9 +52,9 @@ Text copied to clipboard!
 #### Vim
 6. Install Vim from http://www.vim.org/download.php#pc and make sure the Vim directory is added to your path (C:\Program Files (x86)\Vim\vim74)
 #### Pairing Script
-6. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
-7. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
-8. Restart PowerShell and happy PowerShelling!! 
+7. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
+8. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
+9. Restart PowerShell.
 
 ### License
 The MIT License Copyright (c) 2013 TrueCar, Inc.
