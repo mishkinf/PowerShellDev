@@ -33,6 +33,11 @@ Mishkin@MISHPRO > "easily copy your text to the clipboard" | out-clipboard
 Text copied to clipboard!
 ```
 
+##### Output to speech similar to the Mac terminal "say" command
+```powershell
+Mishkin@MISHPRO > "Powershell is better than bash!" | out-speech
+```
+
 ... and many more little niceties ...
 
 ### SETUP INSTRUCTIONS
