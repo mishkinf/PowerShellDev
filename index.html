@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Powershelldev by mishkinf</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/mishkinf/PowerShellDev">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/mishkinf/PowerShellDev/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/mishkinf/PowerShellDev/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Powershelldev</h1>
+          <p>Easy PowerShell setup for SSH/Git/Vim and other standard Bash / Terminal features</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/mishkinf">mishkinf</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="powershelldev" class="anchor" href="#powershelldev" aria-hidden="true"><span class="octicon octicon-link"></span></a>PowerShellDev</h1>
+
+<p><em>All the utilities to make PowerShell nicer for developers</em></p>
+
+<p>By Mishkin Faustini</p>
+
+<h5>
+<a id="custom-shell-prompt-for-git-directors-and-git-setup-with-aliases-for-git-status-gst-and-other-git-commands" class="anchor" href="#custom-shell-prompt-for-git-directors-and-git-setup-with-aliases-for-git-status-gst-and-other-git-commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Custom shell prompt for git directors (and git setup with aliases for git status (gst) and other git commands</h5>
+
+<div class="highlight highlight-powershell"><pre>Mishkin@MISHPRO PowerShellDev [master <span class="pl-ko">+</span><span class="pl-cn">1</span> <span class="pl-ko">~</span><span class="pl-cn">0</span> <span class="pl-ko">-</span><span class="pl-cn">0</span>]&gt; git status
+Mishkin Faustini
+<span class="pl-c"># On branch master</span>
+<span class="pl-c"># Changes to be committed:</span>
+<span class="pl-c">#   (use "git reset HEAD &lt;file&gt;..." to unstage)</span>
+<span class="pl-c">#</span>
+<span class="pl-c">#       new file:   blah.txt</span>
+<span class="pl-c">#</span></pre></div>
+
+<h5>
+<a id="pairing-script-for-extreme-programming" class="anchor" href="#pairing-script-for-extreme-programming" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pairing script for extreme programming</h5>
+
+<div class="highlight highlight-powershell"><pre>Mishkin@MISHPRO PowerShellDev [master <span class="pl-ko">+</span><span class="pl-cn">1</span> <span class="pl-ko">~</span><span class="pl-cn">0</span> <span class="pl-ko">-</span><span class="pl-cn">0</span>]&gt; pair mf
+<span class="pl-ko">****</span> PAIRING USERS:
+Mishkin Faustini
+<span class="pl-s1"><span class="pl-pds">'</span>C:\.ssh\keys\mishkinfaustini<span class="pl-pds">'</span></span>
+Enter passphrase <span class="pl-k">for</span> C:\.ssh\keys\mishkinfaustini:
+Identity added: C:\.ssh\keys\mishkinfaustini (C:\.ssh\keys\mishkinfaustini)
+NAMES: Mishkin Faustini
+EMAILS: some@email.address</pre></div>
+
+<h5>
+<a id="easily-copy-variables-and-outputs-to-the-clipboard" class="anchor" href="#easily-copy-variables-and-outputs-to-the-clipboard" aria-hidden="true"><span class="octicon octicon-link"></span></a>Easily copy variables and outputs to the clipboard</h5>
+
+<div class="highlight highlight-powershell"><pre>Mishkin@MISHPRO &gt; <span class="pl-s1"><span class="pl-pds">"</span>easily copy your text to the clipboard<span class="pl-pds">"</span></span> <span class="pl-ko">|</span> <span class="pl-k"><span class="pl-k">out-clipboard</span></span>
+Text copied to clipboard!</pre></div>
+
+<p>... and many more little niceties ...</p>
+
+<h3>
+<a id="setup-instructions" class="anchor" href="#setup-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>SETUP INSTRUCTIONS</h3>
+
+<h4>
+<a id="powershelldev-helpers" class="anchor" href="#powershelldev-helpers" aria-hidden="true"><span class="octicon octicon-link"></span></a>PowerShellDev helpers</h4>
+
+<ol>
+<li>[Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script</li>
+<li>Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1</li>
+<li>Restart PowerShell.</li>
+</ol>
+
+<h4>
+<a id="git-and-ssh" class="anchor" href="#git-and-ssh" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git and SSH</h4>
+
+<ol>
+<li>Install msysgit with everything included from <a href="http://msysgit.github.io/">http://msysgit.github.io/</a>
+</li>
+<li>During installation make sure to select "Use Git from the Windows Command Prompt"</li>
+<li>Add "C:\Program Files (x86)\Git\bin" to your PATH</li>
+<li>Modify .ssh/config and add your keyfile information
+"
+Host *
+    ForwardAgent yes
+    User 
+    IdentityFile keys/
+"
+If you don't know much about ssh keys then please review</li>
+<li>Add your ssh keys to PowerShellDev/.ssh/keys/</li>
+<li>Restart PowerShell.</li>
+</ol>
+
+<h4>
+<a id="vim" class="anchor" href="#vim" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vim</h4>
+
+<ol>
+<li>Install Vim from <a href="http://www.vim.org/download.php#pc">http://www.vim.org/download.php#pc</a> and make sure the Vim directory is added to your path (C:\Program Files (x86)\Vim\vim74)</li>
+<li>Restart PowerShell.</li>
+</ol>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>The MIT License Copyright (c) 2013 TrueCar, Inc.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. TY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-46763190-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
