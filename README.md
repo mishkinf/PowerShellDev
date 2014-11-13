@@ -36,6 +36,11 @@ Text copied to clipboard!
 ... and many more little niceties ...
 
 ### SETUP INSTRUCTIONS
+#### PowerShellDev helpers
+1. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
+2. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
+3. Restart PowerShell.
+
 #### Git and SSH
 1. Install msysgit with everything included from http://msysgit.github.io/
 2. During installation make sure to select "Use Git from the Windows Command Prompt"
@@ -49,12 +54,11 @@ Text copied to clipboard!
     "
     If you don't know much about ssh keys then please review
 5. Add your ssh keys to PowerShellDev/.ssh/keys/
+6. Restart PowerShell.
+
 #### Vim
-6. Install Vim from http://www.vim.org/download.php#pc and make sure the Vim directory is added to your path (C:\Program Files (x86)\Vim\vim74)
-#### Pairing Script
-7. [Optional] Extreme programmers who plan to pair while developing can add their names, usernames and email addresses to the Pair.ps1 script
-8. Run powershell and navigate to the PowerShellDev project folder and run ./stationsetup.ps1
-9. Restart PowerShell.
+1. Install Vim from http://www.vim.org/download.php#pc and make sure the Vim directory is added to your path (C:\Program Files (x86)\Vim\vim74)
+2. Restart PowerShell.
 
 ### License
 The MIT License Copyright (c) 2013 TrueCar, Inc.
